@@ -7,7 +7,7 @@ This page is my Portfolio, where I'd like to share some awesome projects that I'
 </br>
 </br>
 
-#### <u>HunterKiller (Java version)</u>
+### HunterKiller (Java version)
 During my Master in Artificial Intelligence, I was able to run an internship at Codepoke working under G.J. Roelofs. Together we created HunterKiller as a game in which we could research various search techniques.</br>
 Below you can see HunterKiller running on a test-map, which was specifically designed to enable us to efficiently and rigorously test new techniques and adjustments:</br>
 ![HunterKiller running on a test-map](/Media/HK_run_testmap.gif)
@@ -37,7 +37,7 @@ The code for HunterKiller's engine can be found in [the HunterKiller repository]
 The code for the bots created for HunterKiller can be found in [the HunterKillerBots repository](https://github.com/antonvalkenberg/HunterKillerBots).
 </br>
 
-#### <u>HunterKiller (C++ version)</u>
+### HunterKiller (C++ version)
 In the last couple months, as an exercise and some self-education, I decided to port HunterKiller's engine to C++.
 Here you can see it running in a console window, with two purely random bots playing against eachother:
 </br>
@@ -47,18 +47,25 @@ Currently I'm developing a visualization for this engine in Unreal Engine 5.0, h
 </br>
 <insert link to UE5 screenshot>
 	
-#### <u>AI/Bot(s) for Hearthstone (C#)</u>
+### AI/Bot(s) for Hearthstone (C#)
 For my Master's Thesis, I wanted to approach the hugely popular digital card game Hearthstone as a Combinatorial Multi-Armed Bandit problem. To tackle this, I used a Hearthstone simulator, Sabberstone, which was written in C#. To employ all the various techniques I had learned about during my internship (and Master as well, I guess :P ), I ported the entire A.I. framework (used by Codepoke) from Java to C#.
+
+Due to this being a research Thesis, no visualization was required or requested, so I did not spend any time developing that.
 
 ##### Thesis and code
 The written thesis can be found [through this link](/Documents/Thesis.pdf).
 </br>
 All of the code, including the A.I. framework and bots written for this project, can be found in [the Master Thesis repository](https://github.com/antonvalkenberg/ThesisCodeHSCMAB).
 
-#### AI for Battlecode 2014 competition, won our University Class' tournament
-	- Pathfinding with A*
-	- Novel herding strategy, specific to this year's environment
-	- Blackboard system for multi-agent communication
-#### AI for Knightthrough, variation of chess played with only Knights
-	- ...
-#### AI for Mastermind, performed best in Class
+### AI for Battlecode 2014 competition (Java)
+As one of the projects during the A.I. Master, we were tasked with writing an AI/entry for MIT's yearly competition called Battlecode. We eventually ran our own tournament between all the groups in our Class of that year. Our group won this tournament by beating the most amount of other teams on all the maps provided by the University. As an additional note for clarity: the objective of the 2014 edition of Battlecode was to herd cows into pastures and optimize resource-generation.
+</br>
+Our approach included, among others, the following techniques:
+- Pathfinding using A*
+- Novel cow-herding strategy, specific to this year's environment
+- Blackboard system for multi-agent communication
+- Fully automated testing code to facilitate more efficient testing of enhancements (and other teams' bots as well)
+
+### AI for Mastermind (Java)
+In our first year at Maastricht University, our very first group-project was to create a UI for the well known board game Mastermind, as well as an automatic solver that could guess a user's code in as few guesses as possible. The results for our group were quite good: we beat the other 5 groups in our Class (even though one group reported an average of <3, which is not possible). For the default game setup of 4 positions and 6 total colors, our solver reached an average of 4.41 moves.
+The following two pictures show the UI we created back then (note that this was in 2003), as well as our results:
