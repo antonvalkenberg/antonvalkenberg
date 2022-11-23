@@ -3,7 +3,7 @@
 ### Hi there 👋, I'm Anton Valkenberg :)
 This page is my Portfolio, where I'd like to share some awesome projects that I've had the pleasure to work on, focused on Games & A.I.
 
-#### Current version: 0.1.0 (rough draft of the projects/games I want to highlight)
+</br>
 </br>
 </br>
 
@@ -38,12 +38,14 @@ The code for the bots created for HunterKiller can be found in [the HunterKiller
 </br>
 
 ### HunterKiller (C++ version)
-In the last couple months, as an exercise and some self-education, I decided to port HunterKiller's engine to C++.
-Here you can see it running in a console window, with two purely random bots playing against eachother:
+In the last couple months, as an exercise and some self-education, I decided to port HunterKiller's engine to C++ (cpp20).
+Here you can see it running in a console window, with two purely random bots playing against each other:
 </br>
-![C++ version of HunterKiller running in console window](/Media/HKCPP_run_randombots.gif)
+
+https://user-images.githubusercontent.com/15450200/203626881-a1d5988a-431e-45bc-b3a1-ad3a27b6b8c9.mp4
+
 </br>
-Currently I'm developing a visualization for this engine in Unreal Engine 5.0, here's a sneak peak: (Note: work in progress)
+Currently, I'm developing a visualization for this engine in Unreal Engine 5.0, here's a sneak peak: (Note: work in progress)
 </br>
 <insert link to UE5 screenshot>
 	
@@ -69,3 +71,17 @@ Our approach included, among others, the following techniques:
 ### AI for Mastermind (Java)
 In our first year at Maastricht University, our very first group-project was to create a UI for the well known board game Mastermind, as well as an automatic solver that could guess a user's code in as few guesses as possible. The results for our group were quite good: we beat the other 5 groups in our Class (even though one group reported an average of <3, which is not possible). For the default game setup of 4 positions and 6 total colors, our solver reached an average of 4.41 moves.
 The following two pictures show the UI we created back then (note that this was in 2003), as well as our results:
+</br>
+<img height="300" width="250" src="/Media/Mastermind_UI.png"></img>
+<img height="230" width="400" src="/Media/Mastermind_Results.png"></img>
+</br>
+
+</br>
+</br>
+
+### :v: Thank you for checking out my Portfolio! :heart:
+If you have any questions, you can find my email address here in [my profile](https://github.com/antonvalkenberg).
+
+</br>
+</br>
+:copyright: A. Valkenberg 2022, current version: 1.0.0, last modified: 23-11-2022
