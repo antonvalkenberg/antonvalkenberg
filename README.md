@@ -7,6 +7,10 @@ This page is my Portfolio, where I'd like to share some awesome projects that I'
 </br>
 </br>
 
+### Personal section
+Let me first briefly introduce myself: I'm Anton Valkenberg, born and raised in The Netherlands. I have done both my Bachelor and Master at Maastricht University. Games have always been an interest of mine, and I've very much enjoyed specializing in Game Theory and Search Techniques in games. I love playing games, both physically (e.g. Warhammer 40k, Magic the Gathering) and digitally (e.g. World of Warcraft, Diablo III). Listing all of the different games I've played over the years would likely reach the maximum amount of space for this Readme, so let's move on ^^
+In the next sections I'd like to talk about some games that I've programmed AI-solutions for :)
+
 ### HunterKiller (Java version)
 During my Master in Artificial Intelligence, I was able to run an internship at Codepoke working under G.J. Roelofs. Together we created HunterKiller as a game in which we could research various search techniques.</br>
 Below you can see HunterKiller running on a test-map, which was specifically designed to enable us to efficiently and rigorously test new techniques and adjustments:</br>
@@ -47,7 +51,7 @@ https://user-images.githubusercontent.com/15450200/203626881-a1d5988a-431e-45bc-
 </br>
 Currently, I'm developing a visualization for this engine in Unreal Engine 5.0, here's a sneak peak: (Note: work in progress)
 </br>
-<insert link to UE5 screenshot>
+PLACEHOLDER
 	
 ### AI/Bot(s) for Hearthstone (C#)
 For my Master's Thesis, I wanted to approach the hugely popular digital card game Hearthstone as a Combinatorial Multi-Armed Bandit problem. To tackle this, I used a Hearthstone simulator, Sabberstone, which was written in C#. To employ all the various techniques I had learned about during my internship (and Master as well, I guess :P ), I ported the entire A.I. framework (used by Codepoke) from Java to C#.
@@ -84,4 +88,4 @@ If you have any questions, you can find my email address here in [my profile](ht
 
 </br>
 </br>
-:copyright: A. Valkenberg 2022, current version: 1.0.0, last modified: 23-11-2022
+:copyright: A. Valkenberg 2022, current version: 1.1.0, last modified: 23-11-2022
