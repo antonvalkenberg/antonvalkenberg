@@ -51,7 +51,8 @@ https://user-images.githubusercontent.com/15450200/203626881-a1d5988a-431e-45bc-
 </br>
 Currently, I'm developing a visualization for this engine in Unreal Engine 5.0, here's a sneak peak: (Note: work in progress)
 </br>
-PLACEHOLDER
+
+![Preview of a HunterKiller map in Unreal Engine 5](/Media/UE5_sneak_peak.png)
 	
 ### AI/Bot(s) for Hearthstone (C#)
 For my Master's Thesis, I wanted to approach the hugely popular digital card game Hearthstone as a Combinatorial Multi-Armed Bandit problem. To tackle this, I used a Hearthstone simulator, Sabberstone, which was written in C#. To employ all the various techniques I had learned about during my internship (and Master as well, I guess :P ), I ported the entire A.I. framework (used by Codepoke) from Java to C#.
@@ -88,4 +89,4 @@ If you have any questions, you can find my email address here in [my profile](ht
 
 </br>
 </br>
-:copyright: A. Valkenberg 2022, current version: 1.1.0, last modified: 23-11-2022
+:copyright: A. Valkenberg 2022, current version: 1.1.1, last modified: 23-11-2022
