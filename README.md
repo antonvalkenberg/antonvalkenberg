@@ -7,7 +7,7 @@ This page is my Portfolio, where I'd like to share some awesome projects that I'
 </br>
 </br>
 
-#### HunterKiller (Java version)
+#### <u>HunterKiller (Java version)</u>
 During my Master in Artificial Intelligence, I was able to run an internship at Codepoke working under G.J. Roelofs. Together we created HunterKiller as a game in which we could research various search techniques.</br>
 Below you can see HunterKiller running on a test-map, which was specifically designed to enable us to efficiently and rigorously test new techniques and adjustments:</br>
 ![HunterKiller running on a test-map](/Media/HK_run_testmap.gif)
@@ -37,16 +37,24 @@ The code for HunterKiller's engine can be found in [the HunterKiller repository]
 The code for the bots created for HunterKiller can be found in [the HunterKillerBots repository](https://github.com/antonvalkenberg/HunterKillerBots).
 </br>
 
-#### HunterKiller (C++ version)
-	- ![C++ version of HunterKiller running in console window](/Media/HKCPP_run_randombots.gif)
-	- currently in development in UE5
-	- <insert UE5 screenshot>
+#### <u>HunterKiller (C++ version)</u>
+In the last couple months, as an exercise and some self-education, I decided to port HunterKiller's engine to C++.
+Here you can see it running in a console window, with two purely random bots playing against eachother:
+</br>
+![C++ version of HunterKiller running in console window](/Media/HKCPP_run_randombots.gif)
+</br>
+Currently I'm developing a visualization for this engine in Unreal Engine 5.0, here's a sneak peak: (Note: work in progress)
+</br>
+<insert link to UE5 screenshot>
 	
-#### AI/Bot(s) for Hearthstone
-	- HMCTS
-	- NMC
-	- LSI
-	- Used for research as part of my Master's Thesis. <Insert link to Thesis>
+#### <u>AI/Bot(s) for Hearthstone (C#)</u>
+For my Master's Thesis, I wanted to approach the hugely popular digital card game Hearthstone as a Combinatorial Multi-Armed Bandit problem. To tackle this, I used a Hearthstone simulator, Sabberstone, which was written in C#. To employ all the various techniques I had learned about during my internship (and Master as well, I guess :P ), I ported the entire A.I. framework (used by Codepoke) from Java to C#.
+
+##### Thesis and code
+The written thesis can be found [through this link](/Documents/Thesis.pdf).
+</br>
+All of the code, including the A.I. framework and bots written for this project, can be found in [the Master Thesis repository](https://github.com/antonvalkenberg/ThesisCodeHSCMAB).
+
 #### AI for Battlecode 2014 competition, won our University Class' tournament
 	- Pathfinding with A*
 	- Novel herding strategy, specific to this year's environment
