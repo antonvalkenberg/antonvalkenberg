@@ -1,15 +1,18 @@
-<img align="right" height="200" width="150" src="https://user-images.githubusercontent.com/15450200/203563324-5a6f7f15-ad4b-46d4-8598-14f774c33076.png"></img>
+<img align="left" height="200" width="200" src="/Media/Profile.png"></img>
+<img align="right" height="200" width="150" src="/Media/Profile_1.png"></img>
 ### Hi there 👋, I'm Anton Valkenberg :)
 This page is my Portfolio, where I'd like to share some awesome projects that I've had the pleasure to work on, focused on Games & A.I.
 
 #### Current version: 0.1.0 (rough draft of the projects/games I want to highlight)
+</br>
+</br>
 
 - HunterKiller Java version
-	- ![first_SI_run](https://user-images.githubusercontent.com/15450200/203542040-3a92d078-6c39-42bb-93a0-a5f8559c5aee.gif)
-	- ![strategy](https://user-images.githubusercontent.com/15450200/203542000-09d5c87c-ddb3-43c3-9eb2-ee831ae48d20.png)
+	- ![HunterKiller running on a test-map](/Media/HK_run_testmap.gif)
+	- ![An example of a full Map in HunterKiller](/Media/HK_Map_Example.png)
 	- used for researching the performance of several search techniques, see report <insert link to report>.
 - HunterKiller C++ version, current in development in UE5
-	- ![2022-11-10_15-14-51](https://user-images.githubusercontent.com/15450200/203542955-03f342dc-f5f6-4bc9-96fc-0c613aa3dd1f.gif)
+	- ![C++ version of HunterKiller running in console window](/Media/HKCPP_run_randombots.gif)
 	- <insert UE5 screenshot>
 	- Various heuristic-based bots using value-maps
 	- Hierarchical Monte Carlo Tree Search
