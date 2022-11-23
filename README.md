@@ -7,18 +7,33 @@ This page is my Portfolio, where I'd like to share some awesome projects that I'
 </br>
 </br>
 
-- HunterKiller Java version
-	- ![HunterKiller running on a test-map](/Media/HK_run_testmap.gif)
-	- ![An example of a full Map in HunterKiller](/Media/HK_Map_Example.png)
-	- used for researching the performance of several search techniques, see report <insert link to report>.
+#### HunterKiller (Java version)
+During my Master in Artificial Intelligence, I was able to run an internship at Codepoke working under G.J. Roelofs. Together we created HunterKiller as a game in which we could research various search techniques.</br>
+Below you can see HunterKiller running on a test-map, which was specifically designed to enable us to efficiently and rigorously test new techniques and adjustments:</br>
+![HunterKiller running on a test-map](/Media/HK_run_testmap.gif)
+Here is an example of one of the fully sized maps that were created to test the performance of the different techniques:
+![An example of a full Map in HunterKiller](/Media/HK_Map_Example.png)
+
+##### Implemented techniques
+- Various heuristic-based bots using value-maps, some examples:
+	- Squad bot, which preferred to keep it's units together in small squads while moving
+	- Scout bot, which preferred to scout out the enemy's position and highly valued field-of-view coverage
+	- Rules bot, which acted based on preconstructed behaviour-rules
+- Hierarchical Monte Carlo Tree Search
+- Naïve Monte Carlo Search
+- Linear Side Information
+
+For pathfinding, all of the bots used a combination of A* and value-maps.
+Note that the engine included a full field-of-view/line-of-sight implementation.
+
+##### Report on research results
+<Insert link to report>.
+
+#####
+
 - HunterKiller C++ version, current in development in UE5
 	- ![C++ version of HunterKiller running in console window](/Media/HKCPP_run_randombots.gif)
 	- <insert UE5 screenshot>
-	- Various heuristic-based bots using value-maps
-	- Hierarchical Monte Carlo Tree Search
-	- Naïve Monte Carlo
-	- Linear Side Information
-	- Pathfinding covered by A*
 
 	- Link C++ Gif to YT-video, feel free to look around my channel as well :)
 - AI/Bot(s) for Hearthstone
